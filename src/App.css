@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 80s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  color:  #282c34;
+  height: 10vh;
+  width: 85vw;
+  margin-left:15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-header:hover{
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.navigationbar{
+    height:100%;
+    width:15vw;
+    position: fixed;
+    top:0;
+    left:0;
+    color:#282c34;
+    background-color:#eeeee0;
+    padding-top: 50px;
+    
+}
+
+.homepage{        
+    color: white;
+    background-color: #282c34;
+    margin-left:15vw;
+    width:85vw;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.projects{
+  height:100vh;
+}
+
+#timeClock {
+  text-align: center;
+  margin-left:15vw;
+  width:85vw;
+  height:1000vh;
+}
+
+
+
+#time-left {
+  border: "3px solid black";
+}
+
+.navigationbar a{
+  text-decoration-line: none;
+}
+
+.navigationbar a:hover{
+  color:blue;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
