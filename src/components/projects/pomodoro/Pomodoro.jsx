@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import SetTime from './SetTime'
 import {
     Link
-} from "react-router-dom";
+} from 'react-router-dom';
 
 var timeInterval
 
@@ -31,11 +31,11 @@ export default class TimeClock extends React.Component {
         this.reset = this.reset.bind(this);
     }
     incBreakLength() {
-        if (this.state.currentStatus === "Stopped") {
+        if (this.state.currentStatus == "Stopped") {
             let session = this.state.currentSession
             var length = this.state.breakLength
             var timer = length * 60
-            if (session === "Break") {
+            if (session == "Break") {
                 if (length < 60) {
                     this.setState({
                         breakLength: length + 1,
@@ -53,11 +53,11 @@ export default class TimeClock extends React.Component {
         }
     }
     decBreakLength() {
-        if (this.state.currentStatus === "Stopped") {
+        if (this.state.currentStatus == "Stopped") {
             let session = this.state.currentSession
             var length = this.state.breakLength
             var timer = length * 60
-            if (session === "Break") {
+            if (session == "Break") {
                 if (length > 1) {
                     this.setState({
                         breakLength: length - 1,
@@ -75,12 +75,12 @@ export default class TimeClock extends React.Component {
         }
     }
     incSessionLength() {
-        if (this.state.currentStatus === "Stopped") {
+        if (this.state.currentStatus == "Stopped") {
 
             let session = this.state.currentSession
             var length = this.state.sessionLength
             var timer = length * 60
-            if (session === "Session") {
+            if (session == "Session") {
                 if (length < 60) {
                     this.setState({
                         sessionLength: length + 1,
@@ -98,12 +98,12 @@ export default class TimeClock extends React.Component {
         }
     }
     decSessionLength() {
-        if (this.state.currentStatus === "Stopped") {
+        if (this.state.currentStatus == "Stopped") {
             let session = this.state.currentSession
             var length = this.state.sessionLength
             var timer = length * 60
 
-            if (session === "Session") {
+            if (session == "Session") {
                 if (length > 1) {
                     this.setState({
                         sessionLength: length - 1,
@@ -125,17 +125,25 @@ export default class TimeClock extends React.Component {
         let length = 0;
         let status = this.state.currentStatus;
 
-        session === "Session"
+        session == "Session"
             ? (length = this.state.sessionLength)
             : (length = this.state.breakLength)
         let timer = this.state.time;
+
+        /* if(timer===0){
+           console.log("timer == ",this.state.time)
+           sound.currentTime = 0;
+           sound.play();
+           
+         }*/
+
 
         if (this.state.time === 0) {
             this.audioBeep.currentTime = 0
             this.audioBeep.play()
         }
         if (timer < 0) {
-            if (session === "Session") {
+            if (session == "Session") {
                 this.startStop()
                 this.setState({
                     currentSession: "Break",
@@ -155,7 +163,7 @@ export default class TimeClock extends React.Component {
             }
         }
 
-        if (this.state.restart === 1) {
+        if (this.state.restart == 1) {
             this.startStop()
             this.setState({
                 restart: 0
@@ -177,7 +185,7 @@ export default class TimeClock extends React.Component {
                 count: this.state.count + 1
             })
         }
-        else if (this.state.count === 4) {
+        else if (this.state.count == 4) {
             this.audioBeep.pause()
             this.audioBeep.currentTime = 0
             this.setState({
@@ -197,7 +205,7 @@ export default class TimeClock extends React.Component {
     startStop() {
         let status = this.state.currentStatus;
 
-        if (status === "Running") {
+        if (status == "Running") {
             clearInterval(this.state.timeInterval)
             this.setState({
                 currentStatus: "Stopped"
@@ -288,7 +296,8 @@ export default class TimeClock extends React.Component {
                         reset
           </button>
                 </div>
-                <Link to="/">Home</Link>
+                <br />
+                <Link to={process.env.PUBLIC_URL}>Home</Link>
             </div>
         );
     }
