@@ -56,7 +56,7 @@ export default class Projects extends Component {
                 <hr className="style2" />
                 <br />
                 <br />
-                <h3 className="text-center"><FontAwesomeIcon icon={faQuoteLeft} color="White" /> {this.state.quoteData.text} <FontAwesomeIcon icon={faQuoteRight} color="white" /></h3>
+                <h3 className="text-center"><FontAwesomeIcon icon={faQuoteLeft} color="#2c3e50" /> {this.state.quoteData.text} <FontAwesomeIcon icon={faQuoteRight} color="white" /></h3>
                 <h4>- {this.state.quoteData.author}</h4>
                 <br />
                 <button className="btn" onClick={this.getRandomQuote}>Random Quote</button>
