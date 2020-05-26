@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Home from './components/home'
-import Navigationbar from './components/navigationbar'
-import Projects from './components/projects';
-import About from './components/about'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import Home from './components/home/home'
+import Navigationbar from './components/navigation/navigationbar'
+import Projects from './components/projects/projects';
+import About from './components/about/about'
+import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
 import TimeClock from './components/projects/pomodoro/Pomodoro'
 import WeatherApp from './components/projects/weather/WeatherApp'
 import { library } from '@fortawesome/fontawesome-svg-core'

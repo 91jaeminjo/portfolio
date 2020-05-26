@@ -1,14 +1,20 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTerminal, faGraduationCap, faHeart, faCoffee, faLaptop, faLeaf, faFootballBall } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faTerminal, faGraduationCap, faHeart, faCoffee, faLaptop, faLeaf, faFootballBall } from '@fortawesome/free-solid-svg-icons'
+import '../global.scss'
+import './about.scss'
 export default class About extends Component {
     
     render(){
         return (
-            <section id="about" className="bg-primary text-white mb-0">
-                <div className="timeline">
-                    <h1 className="section-title-2">ABOUT</h1>
-                    <hr className="style2" />
+            <section id="about" className="page-section bg-primary text-white mb-0">
+                <div className="container">
+                    <h1 className="page-section-heading text-center text-uppercase text-white">ABOUT</h1>
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><FontAwesomeIcon icon={faStar} /></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
                     <div className="time-container content text-left">
                         
                         <h2 className="headline">About Myself</h2>
