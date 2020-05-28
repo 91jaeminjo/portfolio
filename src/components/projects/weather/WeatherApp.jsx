@@ -42,6 +42,7 @@ export default class WeatherApp extends Component {
     }
 
     componentDidMount() {
+        window.scrollTo(0, 0);
         this.navSlide();
         fetch(
           weatherUrl +
@@ -75,6 +76,7 @@ export default class WeatherApp extends Component {
           })
           .catch(console.log);
     }
+    
     navSlide (){
         const menu = document.querySelector('.menu');
         const nav = document.querySelector('.nav-links');
@@ -93,6 +95,8 @@ export default class WeatherApp extends Component {
                       index / 7 + 0.5}s`;
                 }
             })
+            //menu animation
+            menu.classList.toggle('rotate')
         })
     }
     handleZipcode(event) {
@@ -114,15 +118,15 @@ export default class WeatherApp extends Component {
     updateZipcodeWeather(event) {
         event.preventDefault();
     
-    fetch(
-        weatherUrl +
-        "zip=" +
-        this.state.zipcode +
-        ",us&" +
-        imperialUnit +
-        "&" +
-        apiKey
-    )
+        fetch(
+            weatherUrl +
+            "zip=" +
+            this.state.zipcode +
+            ",us&" +
+            imperialUnit +
+            "&" +
+            apiKey
+        )
         .then((res) => res.json())
         .then((data) => {
         
@@ -214,7 +218,7 @@ export default class WeatherApp extends Component {
           <h1 className="text-center">Weather App</h1>
           <br />
           <br />
-          <div className="weather-report">
+          <div className="weather-report col-10 mx-auto">
             <p>
               Today's Weather in {this.state.location}: {this.state.temperature}
               F (possibly ranging from {this.state.tempMin}F to{" "}
