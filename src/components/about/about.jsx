@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { faStar, faTerminal, faGraduationCap, faHeart, faCoffee, faLaptop, faLeaf, faFootballBall } from '@fortawesome/free-solid-svg-icons'
+import { faJava, faPython } from '@fortawesome/free-brands-svg-icons'
 import '../global.scss'
 import './about.scss'
 export default class About extends Component {
@@ -19,7 +21,7 @@ export default class About extends Component {
                         
                         <h2 className="headline">About Myself</h2>
                         <h4><FontAwesomeIcon icon={faTerminal} color="black" /> Hello, my name is Jae-Min Jo, a software engineer with <FontAwesomeIcon icon={faHeart} color="red" /> and passion.
-                            <br />My favorite programming language is Java <FontAwesomeIcon icon={faCoffee} color="#654321" />, especially with the Java Spring Framework <FontAwesomeIcon icon={faLeaf} color="green" />.
+                            <br />My favorite programming language is Java <FontAwesomeIcon icon={faJava} color="#654321" />, especially with the Java Spring Framework <FontAwesomeIcon icon={faLeaf} color="green" />.
                             <br />
                             <br />Here is a link to my <a href="#">resume</a> for your reference.
                         </h4>

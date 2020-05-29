@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import './weather.scss'
 
-const weatherUrl = 'http://api.openweathermap.org/data/2.5/weather?'
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?'
 const apiKey = 'appid=939ac13658fad1c02b7fcad388a113d2'
 const imperialUnit = 'units=imperial'
 const defaultLocation = 'Austin,Texas'
