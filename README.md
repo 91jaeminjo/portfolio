@@ -9,3 +9,5 @@ To build and run this project from source:
   - run `npm insall` to install the app's dependencies
   - run `npm start` to start the application
   - open `localhost:3000` from a web browser
+
+This portfolio can be accessed via https://91jaeminjo.github.io/portfolio/#projects
