@@ -10,4 +10,4 @@ To build and run this project from source:
   - run `npm start` to start the application
   - open `localhost:3000` from a web browser
 
-This portfolio can be accessed via https://91jaeminjo.github.io/portfolio/#projects
+This portfolio can be accessed via https://91jaeminjo.github.io/portfolio
