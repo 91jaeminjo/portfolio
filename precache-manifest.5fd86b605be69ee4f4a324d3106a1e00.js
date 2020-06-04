@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b637511b48cc2b6c0ed13fbbfe32c4c5",
+    "revision": "87bba7892112a80da83e126206bed422",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "05da9e563fe51ba514a7",
+    "revision": "d287fcb5f258ef5e7904",
     "url": "/portfolio/static/css/main.7b8af0e8.chunk.css"
   },
   {
-    "revision": "16c736f7b84171f7206d",
-    "url": "/portfolio/static/js/2.5ff332a5.chunk.js"
+    "revision": "ae0d6aa33e9f60fea782",
+    "url": "/portfolio/static/js/2.6934a223.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.5ff332a5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.6934a223.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05da9e563fe51ba514a7",
-    "url": "/portfolio/static/js/main.c66e2e9b.chunk.js"
+    "revision": "d287fcb5f258ef5e7904",
+    "url": "/portfolio/static/js/main.97756765.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
     "url": "/portfolio/static/js/runtime-main.f4f2abbf.js"
+  },
+  {
+    "revision": "a9b98a6fb2e6d438545f8a68c489adff",
+    "url": "/portfolio/static/media/Jae-Min_Jo_resume_2020.a9b98a6f.pdf"
   },
   {
     "revision": "bc571d3384893310221db95cde632121",
