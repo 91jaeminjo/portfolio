@@ -5,6 +5,7 @@ import { faStar, faTerminal, faGraduationCap, faHeart, faCoffee, faLaptop, faLea
 import { faJava, faPython } from '@fortawesome/free-brands-svg-icons'
 import '../global.scss'
 import './about.scss'
+import pdf from "../../resources/Jae-Min_Jo_resume_2020.pdf"
 export default class About extends Component {
     
     render(){
@@ -23,7 +24,7 @@ export default class About extends Component {
                         <h4><FontAwesomeIcon icon={faTerminal} color="black" /> Hello, my name is Jae-Min Jo, a software engineer with <FontAwesomeIcon icon={faHeart} color="red" /> and passion.
                             <br />My favorite programming language is Java <FontAwesomeIcon icon={faJava} color="#654321" />, especially with the Java Spring Framework <FontAwesomeIcon icon={faLeaf} color="green" />.
                             <br />
-                            <br />Here is a link to my <a href="#">resume</a> for your reference.
+                            <br />Here is a link to my <a href={pdf} target="_blank" rel="noopener noreferrer">resume</a> for your reference.
                         </h4>
                         <br />
                         <br />
