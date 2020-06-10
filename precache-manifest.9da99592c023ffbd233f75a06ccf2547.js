@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87bba7892112a80da83e126206bed422",
+    "revision": "026128e69f535e5e4a8e7f5b4254a7d1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d287fcb5f258ef5e7904",
+    "revision": "2e349e94fbd7c70df872",
     "url": "/portfolio/static/css/main.7b8af0e8.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.6934a223.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d287fcb5f258ef5e7904",
-    "url": "/portfolio/static/js/main.97756765.chunk.js"
+    "revision": "2e349e94fbd7c70df872",
+    "url": "/portfolio/static/js/main.1448e9a1.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
     "url": "/portfolio/static/js/runtime-main.f4f2abbf.js"
   },
   {
-    "revision": "a9b98a6fb2e6d438545f8a68c489adff",
-    "url": "/portfolio/static/media/Jae-Min_Jo_resume_2020.a9b98a6f.pdf"
+    "revision": "4b99d6181fee9c197374dac82090c663",
+    "url": "/portfolio/static/media/Jae-Min_Jo_resume_2020.4b99d618.pdf"
   },
   {
     "revision": "bc571d3384893310221db95cde632121",
