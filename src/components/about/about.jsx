@@ -28,9 +28,10 @@ export default class About extends Component {
                         </h4>
                         <br />
                         <br />
-                        <h2 className="headline">Educational Background</h2>
+                        <h2 className="headline">Technical Background</h2>
                         <h4><FontAwesomeIcon icon={faTerminal} color="black" /> I first started coding in Java in High School, fell in love with programming and decided to study Electrical and Computer engineering.
                             I graduated from the University of Texas at Austin in 2016 <FontAwesomeIcon icon={faGraduationCap} color="black" />.
+                            <br/>Through internships and work after graduation, I have gained 
 
                         </h4>
                         <br />
