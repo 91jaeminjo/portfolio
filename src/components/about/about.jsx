@@ -24,15 +24,15 @@ export default class About extends Component {
                         <h4><FontAwesomeIcon icon={faTerminal} color="black" /> Hello, my name is Jae-Min Jo, a software engineer with <FontAwesomeIcon icon={faHeart} color="red" /> and passion.
                             <br />My favorite programming language is Java <FontAwesomeIcon icon={faJava} color="#654321" />, especially with the Java Spring Framework <FontAwesomeIcon icon={faLeaf} color="green" />.
                             <br />
-                            <br />Here is a link to my <a href={pdf} target="_blank" rel="noopener noreferrer">resume</a> for your reference.
                         </h4>
                         <br />
                         <br />
                         <h2 className="headline">Technical Background</h2>
                         <h4><FontAwesomeIcon icon={faTerminal} color="black" /> I first started coding in Java in High School, fell in love with programming and decided to study Electrical and Computer engineering.
                             I graduated from the University of Texas at Austin in 2016 <FontAwesomeIcon icon={faGraduationCap} color="black" />.
-                            <br/>Through internships and work after graduation, I have gained 
-
+                            <br />
+                            <br />Here is a link to my <a href={pdf} target="_blank" rel="noopener noreferrer">resume</a> for your reference.
+                            <br />
                         </h4>
                         <br />
                         <br />

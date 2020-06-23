@@ -57,7 +57,7 @@ export default class Projects extends Component {
                   </Link>
                 </div>
                 <div className="col-sm-8 col-md-8 col-lg-6 mx-auto">
-                  <a className="d-block mx-auto project-item" href="http://jae-task-app.s3-website-us-east-1.amazonaws.com/">
+                  <a className="d-block mx-auto project-item" href="http://jae-task-app.s3-website-us-east-1.amazonaws.com/task">
                     <span className="caption text-left">
                       <span className="caption-content">
                         <h3>Task Management App</h3>
