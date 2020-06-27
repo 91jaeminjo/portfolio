@@ -29,8 +29,7 @@ export default class Navigationbar extends Component {
   render() {
       
       return (
-        <Navbar id="mainNav" className="bg-secondary text-uppercase" collapseOnSelect fixed="top" expand="lg">
-          <Container>
+        <Navbar id="mainNav" className="bg-secondary text-uppercase pl-5" collapseOnSelect fixed="top" expand="lg">
             <Navbar.Brand href="#page-top">
               Jae-Min
             </Navbar.Brand>
@@ -45,8 +44,6 @@ export default class Navigationbar extends Component {
               </Nav>
                             
             </Navbar.Collapse>
-            
-          </Container>
         </Navbar>
         
       )
