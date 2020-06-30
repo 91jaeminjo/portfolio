@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d3e2adaa.chunk.css",
-    "main.js": "/portfolio/static/js/main.b99e7849.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b99e7849.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fe64e6df.chunk.css",
+    "main.js": "/portfolio/static/js/main.fb84fe5b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fb84fe5b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
     "static/js/2.0f5cfc46.chunk.js": "/portfolio/static/js/2.0f5cfc46.chunk.js",
     "static/js/2.0f5cfc46.chunk.js.map": "/portfolio/static/js/2.0f5cfc46.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7facaf1ba90f7365d71fa15292dde4bf.js": "/portfolio/precache-manifest.7facaf1ba90f7365d71fa15292dde4bf.js",
+    "precache-manifest.61ca00f3ee5f058f9d0aea569cfaaa66.js": "/portfolio/precache-manifest.61ca00f3ee5f058f9d0aea569cfaaa66.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.d3e2adaa.chunk.css.map": "/portfolio/static/css/main.d3e2adaa.chunk.css.map",
+    "static/css/main.fe64e6df.chunk.css.map": "/portfolio/static/css/main.fe64e6df.chunk.css.map",
     "static/js/2.0f5cfc46.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f5cfc46.chunk.js.LICENSE.txt",
     "static/media/Jae-Min_Jo_resume_2020.pdf": "/portfolio/static/media/Jae-Min_Jo_resume_2020.4b99d618.pdf",
     "static/media/task-icon.jpg": "/portfolio/static/media/task-icon.bc571d33.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
     "static/js/2.0f5cfc46.chunk.js",
-    "static/css/main.d3e2adaa.chunk.css",
-    "static/js/main.b99e7849.chunk.js"
+    "static/css/main.fe64e6df.chunk.css",
+    "static/js/main.fb84fe5b.chunk.js"
   ]
 }
