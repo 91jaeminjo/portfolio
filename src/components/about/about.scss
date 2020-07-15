@@ -39,3 +39,14 @@
   height:75px;
   width:75px;
 }
+
+.tab{
+  text-indent:1em;
+}
+
+.link{
+  color:#0088D5;
+  &:hover{
+    color:#2c3e50;
+  }
+}

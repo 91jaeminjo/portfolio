@@ -10,7 +10,20 @@
 }
 
 .weather-app{
-    background-color: rgba(255, 172, 17, 0.815);    
+    overflow-x:hidden!important;
+}
+.weather-header{
+    color:rgb(196, 196, 196);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+    &:hover{
+        color:white;
+    }
+    background-color: #4C5B6B;
+    
 }
 
 nav{
@@ -25,11 +38,12 @@ nav{
     color: rgb(196, 196, 196);
     letter-spacing: 3px;
     font-size:20 px;
+    cursor:default;
 }
 
 .nav-links{
     display:flex;
-    width:33%;
+    width:25%;
     justify-content: space-around;
 }
 
@@ -46,6 +60,11 @@ nav{
 .weather-report{
     margin-left:150px;
 }
+.weather-body{
+    a{
+        color:black;
+    }
+}
 
 .menu {
     display: none;
@@ -59,9 +78,7 @@ nav{
     transition: all 0.4s ease;
 }
 
-body{
-  overflow-x:hidden!important;
-}
+
 
 @media screen and(max-width:768px) {
     
