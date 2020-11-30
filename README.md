@@ -1,13 +1,16 @@
 # portfolio
 
-This is my personal portfolio to display my work built with React.js.
+This is my personal portfolio to display my work.
 
-To build and run this project from source:
+This portfolio has been built with React.js.
+To run this project from source:
 
   - clone the repository
   - navigate into the `portfolio` directory
   - run `npm insall` to install the app's dependencies
   - run `npm start` to start the application
+
   - open `localhost:3000` from a web browser
 
 This portfolio can be accessed via https://91jaeminjo.github.io/portfolio
+
