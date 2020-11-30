@@ -59,13 +59,15 @@ export default class Projects extends Component {
                   </Link>
                 </div>
                 <div className="col-sm-8 col-md-8 col-lg-6 mx-auto">
-                  <a className="d-block mx-auto project-item" href="http://jae-task-app.s3-website-us-east-1.amazonaws.com/landing">
+                  {/* <a className="d-block mx-auto project-item" href="http://jae-task-app.s3-website-us-east-1.amazonaws.com/landing"> */}
+                  <a className="d-block mx-auto project-item">
                     <span className="caption text-left">
                       <span className="caption-content">
-                        <h3>Task Management App</h3>
-                        <p className="mb-0">Full-Stack Application</p>
+                        {/* <h3>Task Management App</h3> */}
+                        <h3>Under Construction</h3>
+                        {/* <p className="mb-0">Full-Stack Application</p>
                         <p className="mb-0">Front-End: Angular</p>
-                        <p className="mb-0">Back-End: Java Spring Boot</p>
+                        <p className="mb-0">Back-End: Java Spring Boot</p> */}
                       </span>
                     </span>
                     <img className="img-fluid" src={taskImage} />
