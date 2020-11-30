@@ -4,6 +4,8 @@ import {
 } from "react-router-dom";
 import weatherImage from './weather/weather-icon.jpg'
 import taskImage from './task/task-icon.jpg'
+import calculatorImage from './images/calculator.jpg'
+import hourglassImage from './images/hourglassImage.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft, faQuoteRight, faStar } from '@fortawesome/free-solid-svg-icons'
 import './projects.scss'
@@ -70,6 +72,7 @@ export default class Projects extends Component {
                   </a>
                 </div>
               </div>
+              
             </div>
           </section>
         );

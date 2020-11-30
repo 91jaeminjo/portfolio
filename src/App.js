@@ -5,7 +5,6 @@ import Projects from './components/projects/projects';
 import About from './components/about/about'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import TimeClock from './components/projects/pomodoro/Pomodoro'
 import WeatherApp from './components/projects/weather/WeatherApp'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -49,9 +48,7 @@ export default function AppRouter(){
           <Route path={process.env.PUBLIC_URL} components={App}>
             <App />
           </Route>
-          <Route exact path="/TimeClock">
-            <TimeClock />
-          </Route>
+          
           <Route exact path="/WeatherApp">
             <WeatherApp />
           </Route>
